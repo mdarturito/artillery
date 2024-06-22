@@ -1,0 +1,15 @@
+Run Powershell as administrator
+
+Get-ExecutionPolicy
+
+Set-ExecutionPolicy RemoteSigned
+
+Y
+
+Set-ExecutionPolicy Restricted
+
+
+artillery run payload.yml
+
+Untuk Menyimpan Hasil Uji ke JSON
+artillery run loadtest.yml -o results.json
